@@ -1,0 +1,309 @@
+/* To remove extra white spaces */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "bebas";
+  src: url(font/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+h1 {
+  margin-bottom: 10px;
+  font-family: "bebas";
+  font-size: 10vh;
+  padding: 10px;
+}
+
+body {
+  background-color: #f8f8f8;
+  font-family: "Montserrat", sans-serif;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 33.33%;
+}
+
+h2 {
+  font-size: 4vh;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: "bebas";
+}
+
+.NewSneakers {
+  height: auto;
+  max-width: 200px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: flex-end; /* Aligns items to the right */
+  background-color: #333;
+  height: 9vh;
+  font-size: 3vh;
+  font-family: "bebas";
+}
+
+.navbar a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+  text-decoration: underline;
+}
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column;
+  }
+  .NewSneakers {
+    max-width: 100%;
+  }
+  .row {
+    width: 100%;
+  }
+  h2 {
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin-top: 200px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+.footer-section h3 {
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: rgba(255, 255, 255, 0.4196078431);
+}
+
+.footer-bottom {
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media screen and (max-width: 374px) {
+  .navbar {
+    font-size: 3vh;
+  }
+  footer {
+    margin-top: 100px;
+    font-size: 2vh;
+  }
+}
+#n1:hover {
+  content: url("Images/New Releases/hover/1.png");
+}
+
+#n2:hover {
+  content: url("Images/New Releases/hover/2.png");
+}
+
+#n3:hover {
+  content: url("Images/New Releases/hover/3.png");
+}
+
+#n4:hover {
+  content: url("Images/New Releases/hover/4.png");
+}
+
+#n5:hover {
+  content: url("Images/New Releases/hover/5.png");
+}
+
+#n6:hover {
+  content: url("Images/New Releases/hover/6.png");
+}
+
+#n7:hover {
+  content: url("Images/New Releases/hover/7.png");
+}
+
+#n8:hover {
+  content: url("Images/New Releases/hover/8.png");
+}
+
+#n9:hover {
+  content: url("Images/New Releases/hover/9.png");
+}
+
+#n10:hover {
+  content: url("Images/New Releases/hover/10.png");
+}
+
+#n11:hover {
+  content: url("Images/New Releases/hover/11.png");
+}
+
+#n12:hover {
+  content: url("Images/New Releases/hover/12.png");
+}
+
+#n13:hover {
+  content: url("Images/New Releases/hover/13.png");
+}
+
+#n14:hover {
+  content: url("Images/New Releases/hover/14.png");
+}
+
+#n15:hover {
+  content: url("Images/New Releases/hover/15.png");
+}
+
+#n16:hover {
+  content: url("Images/New Releases/hover/16.png");
+}
+
+#n17:hover {
+  content: url("Images/New Releases/hover/17.png");
+}
+
+#n18:hover {
+  content: url("Images/New Releases/hover/18.png");
+}
+
+#n19:hover {
+  content: url("Images/New Releases/hover/19.png");
+}
+
+#n20:hover {
+  content: url("Images/New Releases/hover/20.png");
+}
+
+#n21:hover {
+  content: url("Images/New Releases/hover/21.png");
+}
+
+#n22:hover {
+  content: url("Images/New Releases/hover/22.png");
+}
+
+#n23:hover {
+  content: url("Images/New Releases/hover/23.png");
+}
+
+#n24:hover {
+  content: url("Images/New Releases/hover/24.png");
+}
+
+@media screen and (min-width: 375px) and (max-width: 812px) {
+  .navbar {
+    font-size: 2.4vh;
+  }
+  footer {
+    margin-top: 100px;
+    font-size: 1.5vh;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar {
+    font-size: 3vh;
+  }
+  footer {
+    font-size: 2vh;
+  }
+  .row {
+    width: 50%;
+  }
+  .NewSneakers {
+    max-width: 100%;
+  }
+  h2 {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .row {
+    width: 33.33%;
+  }
+  .NewSneakers {
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=NewReleases.css.map */
